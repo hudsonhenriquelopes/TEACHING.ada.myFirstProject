@@ -31,5 +31,6 @@ public class UsoString {
         }
 
 //        System.out.println(entrada02.split("_")); // 20
+
     }
 }
