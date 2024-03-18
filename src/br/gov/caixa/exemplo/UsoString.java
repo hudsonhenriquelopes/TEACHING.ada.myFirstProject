@@ -1,6 +1,6 @@
-package br.gov.caixa;
+package br.gov.caixa.exemplo;
 
-public class ExemploString {
+public class UsoString {
 
     public static void main(String[] args) {
         // Registro [5] + Nome [10] + Sequência [1] = [16]
@@ -29,6 +29,7 @@ public class ExemploString {
             int value = Integer.parseInt(partOfPartString.replaceAll("valor", "")); // valor1
             System.out.println(">>> Parte inteira do texto 'valor...' ==" + value);
         }
+
 //        System.out.println(entrada02.split("_")); // 20
     }
 }

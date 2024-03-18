@@ -2,7 +2,7 @@ package br.gov.caixa.exemplo;
 
 import java.util.ArrayList;
 
-public class AplicacaoArrayList {
+public class UsoArrayList {
 
     public static void main(String[] args) {
         ArrayDinamico arrayDinamico = new ArrayDinamico(2);
