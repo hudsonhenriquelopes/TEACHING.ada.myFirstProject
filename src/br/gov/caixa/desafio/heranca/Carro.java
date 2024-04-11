@@ -1,6 +1,6 @@
 package br.gov.caixa.desafio.heranca;
 
-public final class Carro extends Veiculo.VeiculoMotorizadoComPortas {
+public class Carro extends Veiculo.VeiculoMotorizadoComPortas {
     public Carro(String marca, int ano, TamanhoVeiculo tamanho) {
         super(marca, ano, tamanho);
     }

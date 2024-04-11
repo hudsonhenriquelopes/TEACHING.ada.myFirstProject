@@ -122,9 +122,19 @@ public abstract class Veiculo {
         }
     }
 
-    public final class Moto extends VeiculoMotorizado {
-        public Moto(String marca, int ano, TamanhoVeiculo tamanho) {
+    public static class Moto extends VeiculoMotorizado {
+        private double cilindradas;
+        public Moto(String marca, int ano, TamanhoVeiculo tamanho, double cilindradas) {
             super(marca, ano, tamanho);
+            this.cilindradas = cilindradas;
+        }
+
+        public double getCilindradas() {
+            return cilindradas;
+        }
+
+        public void setCilindradas(double cilindradas) {
+            this.cilindradas = cilindradas;
         }
     }
 
